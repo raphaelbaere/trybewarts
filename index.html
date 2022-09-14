@@ -1,27 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TrybeWarts</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header class="header">
-      <img class="trybewarts-header-logo" src="images/trybewarts-header-logo.svg" alt="">
-      <h1 id="trybewarts-header-title">Trybewarts</h1>
-    
-        <form class="trybewarts-login">
-            <input type="email" name="email" placeholder="Email" id="email">
-            <input type="password" name="password" placeholder="Senha" id="password">
-            <button type="submit" id="submit-button">Entrar</button>
-        </form>
-    </header>
-    <main>
-      <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="">
-      <form id="evaluation-form">
-        <section>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TrybeWarts</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="header">
+    <img class="trybewarts-header-logo" src="images/trybewarts-header-logo.svg" alt="">
+    <h1 id="trybewarts-header-title">Trybewarts</h1>
+
+    <form class="trybewarts-login">
+      <input type="email" name="email" placeholder="Email" id="email">
+      <input type="password" name="password" placeholder="Senha" id="password">
+      <button type="submit" id="submit-button">Entrar</button>
+    </form>
+  </header>
+  <main>
+    <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="">
+    <form id="evaluation-form">
+      <section>
         <input type="text" name="" placeholder="Nome" id="input-name">
         <input type="text" name="" placeholder="Sobrenome" id="input-lastname">
       </section>
@@ -33,24 +35,27 @@
           <option value="Corvinode" id="corvinode-house">Corvinode</option>
           <option value="Pytherina" id="pytherina-house">Pytherina</option>
         </select>
-        <label id="label-family">Qual sua família?
+        <label id="label-family">Qual sua família?</label>
+        <section class="label-family">
           <input type="radio" name="family" value="Frontend" id="">
           <input type="radio" name="family" value="Backend" id="">
           <input type="radio" name="family" value="FullStack" id="">
-        </label>
-        <label id="label-content">
-          Qual conteúdo você está com mais vontade de aprender?
+        </section>
+
+        <label id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
+        <section class="label-family">
           <input type="checkbox" name="HoFs" value="HoFs" class="subject" id="">
           <input type="checkbox" name="Jest" value="Jest" class="subject" id="">
           <input type="checkbox" name="Promises" value="Promises" class="subject" id="">
           <input type="checkbox" name="React" value="React" class="subject" id="">
           <input type="checkbox" name="SQL" value="SQL" class="subject" id="">
           <input type="checkbox" name="Python" value="Python" class="subject" id="">
-        </label>
+        </section>
+
       </section>
-      </form>
-    </main>
-    <script src="script.js"></script>
-  </body>
+    </form>
+  </main>
+  <script src="script.js"></script>
+</body>
+
 </html>
- 
