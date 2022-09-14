@@ -2,15 +2,27 @@
   display: flex;
   background-color: rgb(50, 167, 145);
   justify-content: space-between;
+ align-items: center;
+  
 }
-<<<<<<< HEAD
+.trybewarts-header-logo{
+  width: 200px;
+  height: 200px;
+}
  
- 
-
- 
-=======
 
 .trybewarts-login {
   display: flex;
+  
 }
->>>>>>> refs/remotes/origin/raphael-baere-trybewarts
+.trybewarts-login input {
+  width: 100px;
+  height: 20px;
+
+}
+
+ button{
+  width: 100px;
+  height: 20px;
+  padding-bottom: 20px;
+}
