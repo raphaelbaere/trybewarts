@@ -26,3 +26,12 @@
   height: 20px;
   padding-bottom: 20px;
 }
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+}
+
+main {
+  display: flex;
+}
