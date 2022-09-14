@@ -51,7 +51,7 @@
           <input type="checkbox" name="SQL" value="SQL" class="subject" id="">
           <input type="checkbox" name="Python" value="Python" class="subject" id="">
         </section>
-        <label id="label-rate" for="">Como você avalia a Trybewarts?</label>
+        <label id="label-rate" for="rate">Como você avalia a Trybewarts?</label>
         <input type="radio" value="1" name="rate">
         <input type="radio" value="2" name="rate">
         <input type="radio" value="3" name="rate">
@@ -70,9 +70,11 @@
 
       <label for="textarea" class="textarea">Deixe seu comentário:</label>
       <textarea name="" id="textarea" cols="30" rows="10" maxlength="500"></textarea>
+      <section class="agreement">
       <label for="agreement" id="label-infos">Você concorda com o uso das informações acima?</label>
       <input type="checkbox" name="" id="agreement">
-      <button type="submit" id=submit-btn>Enviar</button>
+    </section>
+      <button type="submit" id="submit-btn">Enviar</button>
     </form>
   </main>
   <script src="script.js"></script>
