@@ -36,4 +36,9 @@
 
 main {
   display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+#trybewarts-forms-logo{
+  height:500px;
 }
